@@ -5,6 +5,15 @@ In India, more than 95% of schools don't allow smartphones in class. Being a Com
 In addition to that, we conducted a survey among our teachers where we found that teachers give more than 40% of their time to creating questions for various class tests, assignments and exams. So this teacher's day, we wanted to help them out. For this, we came up with crowdsourcing question bank idea. Anyone across the world can now help teachers make questions. <br/> <strong>By everyone, for teachers!❤</strong>
 </p>
 
+<img width="1327" alt="playground user interface" src="https://user-images.githubusercontent.com/67703407/132119834-68cd31ee-179a-4cff-80b1-d2979fb87146.png">
+
+## What is it? ⛹️‍♂️
+There are two subsystems of the Playground:
+1. Evaluation of answer sheets of the exams conducted traditionally is a tedious and critical task. A lot of time and energy is invested by the teachers to check every single line of code, look for bugs and find the corresponding output. So, with Playground, you can simply upload a picture of a student's handwritten code and we will handle the rest. Using Google's Vision API, we scan the image and retrieve the text and give it back to you in a code editor. But unlike teachers, machines are not always right, so if some minor flaws are there you can edit them in the code editor, which will then run the code and give you the output. So instead of going through the entire code, use Playground to do it in less than 2 mins.
+2. Teachers have to work hard everyday. Starting from explaining the concepts in a pace all students understand, to giving proper assignments, to clearing all the doubts. So we thought let us make another important job for our teachers super easy. With Playground, you can also easily create question papers and assignments for your students. This is done by crowdsourcing. Students and teachers across the world can add their favourite questions through a form and then you'll get a variety of coding questions which are pre-approved by us. So just select some of the random questions from our page and you're done with the assignment! It's that simple!
+
+
+
 ### Table of Contents
 
 | No. | Questions                                                                                        |
