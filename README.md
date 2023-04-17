@@ -88,57 +88,43 @@ There are two subsystems of the Playground:
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-## Prerequisites 👨‍💻
+# Prerequisites 📋
 
-### Install Node JS
-Refer to https://nodejs.org/en/ to install nodejs
+You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [NPM](http://npmjs.com)) installed on your computer.
 
-### Install create-react-app
-Install create-react-app npm package globally. This will help to easily run the project and also build the source files easily. Use the following command to install create-react-app
-
-```bash
-npm install -g create-react-app
+```
+node@v10.16.0 or higher
+npm@6.9.0 or higher
+git@2.17.1 or higher
 ```
 
-## Cloning and Running the Application in local 💻
-
-Clone the project in localhost
-```bash
-git clone https://github.com/Aniket762/playground.git
-```
-Install all the npm packages. Go into the web folder and type the following command to install all npm packages
+From your command line, first clone this repo:
 
 ```bash
-npm install
+# Clone this repository
+$ git clone https://github.com/sayande2002/JSR_Online_Test
+
+# Go into the repository
+$ cd JSR_Online_Test
+
+# Remove current origin repository
+$ git remote remove origin
 ```
 
-In order to run the application in development mode type the following command
+Then you can install the dependencies either using NPM or Yarn:
+
+Using NPM:
 
 ```bash
-yarn dev
+# Install dependencies
+$ npm install
+
+# Start development server
+$ npm start
 ```
 
-The Application Runs on **localhost:3000**
+Once your server has started, go to this url `http://localhost:3000/` and you will see the website running on a Development Server.
 
-### To spin up the backend server
-
-Navigate to the main project folder in a seperate terminal. Then install all npm packages
-```bash
-npm install 
-```
-
-If you don't have nodemon globally installed on your system, install it so the server can autorefresh 
-```bash
-npm install -g nodemon
-```
-
-Now it's time to spin up the backend server. Run the lines
-```bash
-npm run dev
-```
-If you get an error immediately, don't worry. The final step is to connect to the MongoDB database.
-
-Note: The Server Runs on **localhost:8080**
 
 ## Connecting to the Database
 Spin up your cluster in MongoDB and replace your connection with URI in `.env`
