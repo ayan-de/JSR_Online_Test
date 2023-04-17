@@ -161,32 +161,19 @@ Replace the `<password>` section of the string with your Database Access passwor
 We used React.js in the frontend and Node.js in the backend with MongoDB as our database.The question by the admin was given through postman was displayed in a exam app along with the options of the questions. When we click submit, we send the data(array of answers) from react fromntend to the backend and then in the backend we parse it and compare it with the array of correct answers. Then on basis of the comparison we generate a marks which is then sent to the frontend to display user their result.
 
 ## Challenges we ran into 🥺
-We faced numerours challenges throughout the journey. Firstly, we had to look for a good DRM model. We checked so many github repositories and packages but we couldn't find a one that had very high efficiency. So we finally decided to go with creating a system which could stop users from cheating during exam by capturing screenshots, we basically end up with such idea when we looked into deeeper into how mirroring works( continuous screenshots at very small intervals). We saw that while development, we had already used up so many different api (face-=api.js etc) which affects the main functionality of our code so we end us discarding such things. and if we made the site live, the number of requests will increase because of which our friend might have to pay to Google Cloud. Since we wanted to remain in the free tier, we decided not to host the web application. Other than that we tried creating our very own compiler for the first time, which were initailly full of bugs and it took us a lot of time to fix them.
+We faced numerours challenges throughout the journey. Firstly, we had to look for a good DRM model. We checked so many github repositories and packages but we couldn't find a one that had very high efficiency. So we finally decided to go with creating a system which could stop users from cheating during exam by capturing screenshots, we basically end up with such idea when we looked into deeeper into how mirroring works( continuous screenshots at very small intervals). We saw that while development, we had already used up so many different api (face-=api.js etc) which affects the main functionality of our code so we end us discarding such things. Other than that we tried creating our very own anti screenshot system(detect right click) for the first time, which were initailly full of bugs and it took us a lot of time to fix them.
 
 ## Accomplishments that we're proud of 😎
-The biggest accomplishment for us was that we learned so many new things in just 2 days. We implemented OCR, TypeScript, Axios and API calls. We were able to overcome all the challenges and were able to create a completely functional prototype the way we had envisioned. Even though one of our teammates fell sick and wasn't able to contribute, we didn't lose hope and stayed up all night. It was tiring, but fun as well. I am most proud of the fact that this product will be able to help many teachers across the globe.
-
-## What we learned 🤓
-Being a group of javascript developers, we tried our hands on typescript this time. We learnt how to use Next.js and implement it with TypeScript and SCSS. Moreover, we created a progressive web app with offline support as well. As we wanted to read the handwritten text, we found out about OCR for text extraction. We researched on it and finally decided to try out the Google Vision API which was something very new for us.
+The biggest accomplishment for us was that we learned so many new things in just 2 days. We implemented proctoring system, deploying, fetch and API calls. We were able to overcome all the challenges and were able to create a completely functional prototype the way we had envisioned. Even though one of our teammates fell sick and wasn't able to contribute, we didn't lose hope and stayed up all night. It was tiring, but fun as well. I am most proud of the fact that this product will be able to help many teachers across the globe.
 
 ## Built With 💕
 - [ ] React
-- [ ] Nextjs 
 - [ ] Nodejs
 - [ ] Javascript
 - [ ] Express
-- [ ] Typescript
 - [ ] MongoDB
 - [ ] Mongoose
-- [ ] Google Cloud Platform
-- [ ] Google Vision API
-- [ ] Cloudinary
-- [ ] Scss
+- [ ] Face-Api.js
 - [ ] Vercel
-- [ ] Heroku
-
-
-## What's next for Playground 🔥
-Next, we want to increase the support by providing more options for languages like javascript, java, c and so on. We also want to increase the variety of questions varying through a variety of topics and difficulty levels. In addition to that, we plan to create a neural search framework that will allow us to filter the questions on the basis of topic and difficulty and help you find similar questions. Lastly, we wish to build our very own OCR model for text extraction. This will solve our problems of billing while using external models.
 
 <img src='https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/challenge_photos/001/637/595/datas/full_width.png' />
