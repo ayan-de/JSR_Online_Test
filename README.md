@@ -1,5 +1,5 @@
-<p align='center'><img src![WhatsApp Image 2023-04-17 at 05 56 03](https://user-images.githubusercontent.com/59247285/232352675-3717f79c-f39d-420a-8222-13a4bd5c7ae8.jpg)
-='' width="150" ></p>
+<p align='center'><img src="https://user-images.githubusercontent.com/59247285/232352675-3717f79c-f39d-420a-8222-13a4bd5c7ae8.jpg"
+ width="150" ></p>
 <h1 align='center'> Playground</h1>
 
 <p align='center'>
